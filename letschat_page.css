@@ -1,0 +1,139 @@
+body {
+
+    background-color: rgba(61, 52, 52, 0.445);
+
+}
+
+.text {
+
+    border-radius: 10px;
+    background-color: #1c122e3a;
+    border-color: rgba(0, 255, 255, 0);
+    width: 900px;
+    height: 35px;
+    float: left;
+    margin-left: 30px;
+
+}
+
+.code_of_the_room {
+
+    background-color: white;
+    border-radius: 10px;
+    width: 1250px;
+    height: 500px;
+    box-shadow: 10px 10px 5px 5px rgba(128, 128, 128, 0.404);
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+
+.button {
+
+    border-radius: 50px;
+    background-color: darkgrey;
+    font-size: 15px;
+    padding: 10px;
+    border-color: rgba(255, 255, 255, 0);
+    font-family: Nunito;
+    font-weight: bold;
+    transition: background-color 2s ease-out 100ms;
+    transition: color 2s ease-out 100ms;
+    margin-right: 10px;
+    
+    }
+
+    .logout {
+
+        border-radius: 50px;
+        background-color: darkgrey;
+        font-size: 15px;
+        padding: 10px;
+        border-color: rgba(255, 255, 255, 0);
+        font-family: Nunito;
+        font-weight: bold;
+        margin-right: 100px;
+        transition: background-color 2s ease-out 100ms;
+        transition: color 2s ease-out 100ms;    
+
+    }
+    
+    .button:hover {
+    
+        border-radius: 50px;
+        font-size: 15px;
+        padding: 10px;
+        background-color: rgb(71, 71, 71);
+        border-color: rgba(255, 255, 255, 0);
+        font-family: Nunito;
+        font-weight: bold;
+        color: white;
+        
+        }
+
+        .logout:hover {
+            
+                border-radius: 50px;
+                font-size: 15px;
+                padding: 10px;
+                background-color: rgb(71, 71, 71);
+                border-color: rgba(255, 255, 255, 0);
+                font-family: Nunito;
+                font-weight: bold;
+                color: white;
+
+        }
+
+        .subtitle {
+
+            font-size: 17px;
+            font-family: Montserrat;
+            font-weight: 600; 
+
+        }
+
+        .effect {
+    
+            animation: transitionIn 1.5s;
+        
+        }
+        
+        @keyframes transitionIn {
+        
+        from {
+        
+        opacity: 0;
+        transform: rotateX(-10deg);
+        
+        }
+        
+        to {
+        
+            opacity: 1;
+            transform: rotateX(0deg);
+        
+        }
+        
+        }
+
+        .chat-area {
+
+            background-color: white;
+            border-radius: 10px;
+            width: 600px;
+            height: 500px;
+            box-shadow: 10px 10px 5px 5px rgba(128, 128, 128, 0.404);
+            float: right;
+            margin-top: 50px;
+            margin-right: 50px;
+
+        }
+
+        #user_name {
+
+            font-size: 20px;
+            font-family: Montserrat;
+            font-weight: 600;
+
+        }

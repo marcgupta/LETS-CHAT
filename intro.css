@@ -1,0 +1,112 @@
+body {
+
+background-color: rgba(61, 52, 52, 0.445);
+
+}
+
+.plate {
+
+background-color: white;
+border-radius: 10px;
+width: 1250px;
+height: 500px;
+box-shadow: 10px 10px 5px 5px rgba(128, 128, 128, 0.404);
+float: center;
+
+}
+
+.side-photo {
+
+    width: 450px;
+    height: 500px;
+    float: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.effect {
+
+    animation: transitionIn 1.5s;
+
+}
+
+@keyframes transitionIn {
+
+from {
+
+opacity: 0;
+transform: rotateX(-10deg);
+
+}
+
+to {
+
+    opacity: 1;
+    transform: rotateX(0deg);
+
+}
+
+}
+
+.logo {
+
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-left: 50px;
+    
+}
+
+.title {
+
+margin-right: 550px;
+margin-top: 15px;
+font-size: 20px;
+font-family: Montserrat;
+font-weight: 600;
+
+}
+
+.join {
+
+    font-size: 25px;
+    font-family: Montserrat;
+    font-weight: 600;    
+
+}
+
+.subtitle {
+
+    font-size: 17px;
+    font-family: Montserrat;
+    font-weight: 600;    
+
+}
+
+.button {
+
+border-radius: 50px;
+background-color: darkgrey;
+font-size: 15px;
+padding: 10px;
+border-color: rgba(255, 255, 255, 0);
+font-family: Nunito;
+font-weight: bold;
+transition: background-color 2s ease-out 100ms;
+transition: color 2s ease-out 100ms;
+
+}
+
+.button:hover {
+
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 10px;
+    background-color: rgb(71, 71, 71);
+    border-color: rgba(255, 255, 255, 0);
+    font-family: Nunito;
+    font-weight: bold;
+    color: white;
+    
+    }
+    
