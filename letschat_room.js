@@ -54,3 +54,9 @@ function addroom(){
     window.location = "index.html";
     
     }
+
+    function next() {
+
+      window.location = "letschat_page.html";
+
+    }
